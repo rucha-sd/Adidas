@@ -1,7 +1,6 @@
-/* *{
-    border: solid 1px;
-    border-color: brown;
-} */
+*{
+    outline: none;
+}
 
 @font-face{
     font-family:Roboto;
@@ -94,10 +93,24 @@ img{
     padding: 2vh;
     margin-top:0;
     border-radius: 0.7rem;
+    box-shadow: none;
 }
 .openmodal{
    background-color: white;
    color: black;
    width: 30vw;
    margin: 30%;
+}
+:-moz-any-link:focus {
+    outline: none;
+  }
+  
+ button:active{
+     outline: none;
+ }
+ button:focus{
+    outline: none;
+ }
+.btn:focus{
+    box-shadow: none;
 }
